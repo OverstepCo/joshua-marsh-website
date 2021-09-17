@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "title": "Slowing Down",
+      "description": "Slowing Down description  ",
+      "playlist": [
+        { "title": "foo", "file": "music/foo.mp3" },
+        { "title": "Slowing Down", "file": "music/slowing_down.mp3" }
+      ]
+    }
+  ]
+}
