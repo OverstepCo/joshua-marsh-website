@@ -31,6 +31,18 @@ jQuery(document).ready(function(){
 	jQuery(window).load('body', function(){
 		tokyo_tm_my_load();
 	});
+	//TODO
+	var sound = new Howl({
+		src: ['sound.webm', 'sound.mp3', 'sound.wav'],
+		autoplay: true,
+		loop: true,
+		volume: 0.5,
+		onend: function() {
+		  console.log('Finished!');
+		}
+	  });
+
+    sound.play();
 	
 });
 
